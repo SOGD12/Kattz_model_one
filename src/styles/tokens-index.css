@@ -1,0 +1,39 @@
+:root {
+  /* Base */
+  --negro: #0a0a0a;
+  --negro-2: #141414;
+  --hueso: #f2f0ee;
+  --hueso-suave: rgb(242 240 238 / 0.7);
+  --linea: rgb(242 240 238 / 0.16);
+
+  /* Acción */
+  --rojo: #b3141c;
+  --rojo-vivo: #d41f28;
+  --rojo-oscuro: #8a0f16;
+
+  /* Tintes de colección (ambientales, no de acción) */
+  --cafe: #4a2f23;
+  --cafe-2: #6b4636;
+  --azul: #14284b;
+  --azul-2: #22407a;
+  --morado: #2a1738;
+  --morado-2: #432559;
+
+  /* Tipografía: solo Oswald (decisión aprobada) */
+  --display: 'Oswald Variable', 'Arial Narrow', Impact, sans-serif;
+  --cuerpo: 'Oswald Variable', 'Arial Narrow', system-ui, sans-serif;
+  
+  /* Layout */
+  --gutter: max(20px, env(safe-area-inset-left), env(safe-area-inset-right));
+  --ancho: 1240px;
+  --alto-cabecera: 64px;
+  --espacio: 8px;
+
+  /* Movimiento */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-corta: 200ms;
+  --dur-media: 400ms;
+  --dur-larga: 600ms;
+
+  color-scheme: dark;
+}

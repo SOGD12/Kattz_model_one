@@ -1,0 +1,1078 @@
+{
+ "_": "Registro de imágenes de Katz. Edita 'productos' y 'home'; 'archivos' y 'resumen' los escribe scripts/generar-imagenes-json.py. Las claves son rutas dentro de public/img, sin extensión.",
+ "base": "/img/",
+ "ext": ".webp",
+ "productos": {
+  "puffer": [
+   "puffer",
+   "puffer-3-4",
+   "puffer-lado",
+   "puffer-espalda"
+  ],
+  "bolso": [
+   "bolso-hd",
+   "bolso-1",
+   "bolso-2",
+   "bolso-3",
+   "bolso-4"
+  ],
+  "botas": [
+   "botas-hd",
+   "botas-1",
+   "botas-2",
+   "botas-3",
+   "botas-4"
+  ],
+  "abrigo": [
+   "abrigo-hd",
+   "abrigo-2",
+   "abrigo-3",
+   "abrigo-4"
+  ],
+  "parka": [
+   "parka-hd",
+   "parka-2",
+   "parka-3",
+   "parka-4"
+  ],
+  "camisa": [
+   "camisa-hd",
+   "camisa-2",
+   "camisa-3",
+   "camisa-4"
+  ],
+  "bufanda": [
+   "bufanda-hd",
+   "bufanda-2",
+   "bufanda-3"
+  ],
+  "chaleco": [
+   "chaleco-hd",
+   "chaleco-2",
+   "chaleco-3",
+   "chaleco-4"
+  ],
+  "camiseta": [
+   "camiseta-hd",
+   "camiseta-2",
+   "camiseta-3",
+   "camiseta-4"
+  ],
+  "cargo": [
+   "cargo-hd",
+   "cargo-2",
+   "cargo-3",
+   "cargo-4"
+  ],
+  "jeans": [
+   "jeans-hd",
+   "jeans-2",
+   "jeans-3",
+   "jeans-4"
+  ],
+  "shorts": [
+   "shorts-hd",
+   "shorts-2",
+   "shorts-3",
+   "shorts-4"
+  ],
+  "hoodie": [
+   "hoodie-hd",
+   "hoodie-2",
+   "hoodie-3",
+   "hoodie-4"
+  ],
+  "sudadera": [
+   "sudadera-hd",
+   "sudadera-2",
+   "sudadera-3",
+   "sudadera-4"
+  ],
+  "gorra": [
+   "gorra-hd",
+   "gorra-1",
+   "gorra-2",
+   "gorra-3",
+   "gorra-4"
+  ],
+  "jeans-indigo-lavado": [
+   "catalogo/pantalones-01"
+  ],
+  "jeans-negro-lavado": [
+   "catalogo/pantalones-02"
+  ],
+  "jeans-gris-desgastado": [
+   "catalogo/pantalones-03"
+  ],
+  "cargo-marino-cordones": [
+   "catalogo/pantalones-04"
+  ],
+  "cargo-cafe-correas": [
+   "catalogo/pantalones-05"
+  ],
+  "cargo-carbon-correas": [
+   "catalogo/pantalones-06"
+  ],
+  "buzo-ancho-morado": [
+   "catalogo/pantalones-07"
+  ],
+  "buzo-negro-costuras": [
+   "catalogo/pantalones-08"
+  ],
+  "buzo-cargo-oliva": [
+   "catalogo/pantalones-09"
+  ],
+  "pantalon-vestir-marino": [
+   "catalogo/pantalones-10"
+  ],
+  "pantalon-vestir-cafe": [
+   "catalogo/pantalones-11"
+  ],
+  "pantalon-negro-paneles": [
+   "catalogo/pantalones-12"
+  ],
+  "zapatilla-lona-negra": [
+   "catalogo/calzado-01"
+  ],
+  "zapatilla-cuero-cafe": [
+   "catalogo/calzado-02"
+  ],
+  "zapatilla-lona-marino": [
+   "catalogo/calzado-03"
+  ],
+  "zapatilla-lona-ciruela": [
+   "catalogo/calzado-04"
+  ],
+  "zapatilla-cuero-oscuro": [
+   "catalogo/calzado-05"
+  ],
+  "zapatilla-ante-morado": [
+   "catalogo/calzado-06"
+  ],
+  "zapatilla-skate-negra": [
+   "catalogo/calzado-07"
+  ],
+  "zapatilla-ante-cafe": [
+   "catalogo/calzado-08"
+  ],
+  "zapatilla-ante-azul": [
+   "catalogo/calzado-09"
+  ],
+  "zapatilla-ante-azul-goma": [
+   "catalogo/calzado-10"
+  ],
+  "zapatilla-ante-morado-goma": [
+   "catalogo/calzado-11"
+  ],
+  "botas-cuero-negro": [
+   "catalogo/calzado-12"
+  ],
+  "botas-cuero-cafe": [
+   "catalogo/calzado-13"
+  ],
+  "botas-ante-morado": [
+   "catalogo/calzado-14"
+  ],
+  "camiseta-lavada-sol": [
+   "catalogo/camisetas-estampadas-01",
+   "catalogo/camisetas-estampadas-02"
+  ],
+  "camiseta-lavada-gotas": [
+   "catalogo/camisetas-estampadas-03",
+   "catalogo/camisetas-estampadas-04"
+  ],
+  "camiseta-lavada-engranaje-1": [
+   "catalogo/camisetas-estampadas-05",
+   "catalogo/camisetas-estampadas-06"
+  ],
+  "camiseta-lavada-engranaje-2": [
+   "catalogo/camisetas-estampadas-07",
+   "catalogo/camisetas-estampadas-08"
+  ],
+  "camiseta-lavada-ojo": [
+   "catalogo/camisetas-estampadas-09",
+   "catalogo/camisetas-estampadas-10"
+  ],
+  "camiseta-lavada-naturaleza": [
+   "catalogo/camisetas-estampadas-11",
+   "catalogo/camisetas-estampadas-12"
+  ],
+  "camiseta-lavada-concierto": [
+   "catalogo/camisetas-estampadas-13",
+   "catalogo/camisetas-estampadas-14"
+  ],
+  "camiseta-lavada-alambre": [
+   "catalogo/camisetas-estampadas-15",
+   "catalogo/camisetas-estampadas-16"
+  ],
+  "camiseta-basica-marino": [
+   "catalogo/camisetas-lisas-01"
+  ],
+  "camiseta-basica-cafe": [
+   "catalogo/camisetas-lisas-02"
+  ],
+  "camiseta-basica-morado": [
+   "catalogo/camisetas-lisas-03"
+  ],
+  "camiseta-lavada-carbon": [
+   "catalogo/camisetas-lisas-04"
+  ],
+  "camiseta-basica-verde": [
+   "catalogo/camisetas-lisas-05"
+  ],
+  "camiseta-basica-vino": [
+   "catalogo/camisetas-lisas-06"
+  ],
+  "camiseta-patchwork-carbon": [
+   "catalogo/camisetas-lisas-07"
+  ],
+  "camiseta-bolsillo-cafe": [
+   "catalogo/camisetas-lisas-08"
+  ],
+  "camiseta-patchwork-marino": [
+   "catalogo/camisetas-lisas-09"
+  ],
+  "camiseta-bolsillo-morado": [
+   "catalogo/camisetas-lisas-10"
+  ],
+  "camiseta-corte-negro": [
+   "catalogo/camisetas-lisas-11"
+  ],
+  "camiseta-asimetrica-oliva": [
+   "catalogo/camisetas-lisas-12"
+  ],
+  "camisa-morada-deshilachada": [
+   "catalogo/camisas-01"
+  ],
+  "camisa-cafe-asimetrica": [
+   "catalogo/camisas-02"
+  ],
+  "overshirt-denim-negro": [
+   "catalogo/camisas-03"
+  ],
+  "camisa-pana-marino": [
+   "catalogo/camisas-04"
+  ],
+  "camisa-oliva-corta": [
+   "catalogo/camisas-05"
+  ],
+  "camisa-morada-bloques": [
+   "catalogo/camisas-06"
+  ],
+  "camisa-larga-carbon": [
+   "catalogo/camisas-07"
+  ],
+  "camisa-utilitaria-cafe": [
+   "catalogo/camisas-08"
+  ],
+  "overshirt-denim-lavado": [
+   "catalogo/camisas-09"
+  ],
+  "camiseta-boxy-marino": [
+   "catalogo/camisas-10"
+  ],
+  "camisa-franela-cuadros": [
+   "catalogo/camisas-11"
+  ],
+  "chaqueta-kimono-carbon": [
+   "catalogo/camisas-12"
+  ]
+ },
+ "home": {
+  "banner": "banner",
+  "mosaico": {
+   "camisetas": "catalogo/camisetas-estampadas-01",
+   "abrigos": "puffer-3-4",
+   "jeans": "jeans-hd",
+   "camisas": "catalogo/camisas-02",
+   "pantalones": "cargo-2",
+   "buzos": "hoodie-2",
+   "calzado": "catalogo/calzado-12",
+   "accesorios": "gorra-2"
+  },
+  "galeria": [
+   [
+    "looks/look-01",
+    "looks/look-16",
+    "looks/look-04",
+    "looks/look-20",
+    "looks/look-08",
+    "looks/look-12",
+    "looks/look-19",
+    "looks/look-25",
+    "looks/look-13",
+    "looks/look-28"
+   ],
+   [
+    "looks/look-17",
+    "looks/look-03",
+    "looks/look-22",
+    "looks/look-10",
+    "looks/look-29",
+    "looks/look-06",
+    "looks/look-15",
+    "looks/look-23",
+    "looks/look-02",
+    "looks/look-26"
+   ],
+   [
+    "looks/look-18",
+    "looks/look-07",
+    "looks/look-21",
+    "looks/look-14",
+    "looks/look-30",
+    "looks/look-05",
+    "looks/look-24",
+    "looks/look-09",
+    "looks/look-27",
+    "looks/look-11"
+   ]
+  ],
+  "giro": [
+   "giro/f0",
+   "giro/f1",
+   "giro/f2",
+   "giro/f3",
+   "giro/f4",
+   "giro/f5",
+   "giro/f6",
+   "giro/f7",
+   "giro/f0"
+  ],
+  "popup": {
+   "imagen": "popup/bienvenida",
+   "textoEnImagen": true
+  }
+ },
+ "archivos": {
+  "abrigo-1": [
+   960,
+   1200
+  ],
+  "abrigo-2": [
+   960,
+   1200
+  ],
+  "abrigo-3": [
+   960,
+   1200
+  ],
+  "abrigo-4": [
+   960,
+   1200
+  ],
+  "abrigo-hd": [
+   566,
+   708
+  ],
+  "banner": [
+   2000,
+   857
+  ],
+  "bolso-1": [
+   960,
+   1200
+  ],
+  "bolso-2": [
+   960,
+   1200
+  ],
+  "bolso-3": [
+   960,
+   1200
+  ],
+  "bolso-4": [
+   960,
+   1200
+  ],
+  "bolso-hd": [
+   566,
+   708
+  ],
+  "botas-1": [
+   960,
+   1200
+  ],
+  "botas-2": [
+   960,
+   1200
+  ],
+  "botas-3": [
+   960,
+   1200
+  ],
+  "botas-4": [
+   960,
+   1200
+  ],
+  "botas-hd": [
+   566,
+   708
+  ],
+  "bufanda-1": [
+   960,
+   1200
+  ],
+  "bufanda-2": [
+   960,
+   1200
+  ],
+  "bufanda-3": [
+   960,
+   1200
+  ],
+  "bufanda-hd": [
+   566,
+   708
+  ],
+  "camisa-1": [
+   960,
+   1200
+  ],
+  "camisa-2": [
+   960,
+   1200
+  ],
+  "camisa-3": [
+   960,
+   1200
+  ],
+  "camisa-4": [
+   960,
+   1200
+  ],
+  "camisa-hd": [
+   566,
+   708
+  ],
+  "camiseta-1": [
+   960,
+   1200
+  ],
+  "camiseta-2": [
+   960,
+   1200
+  ],
+  "camiseta-3": [
+   960,
+   1200
+  ],
+  "camiseta-4": [
+   960,
+   1200
+  ],
+  "camiseta-hd": [
+   566,
+   708
+  ],
+  "cargo-1": [
+   960,
+   1200
+  ],
+  "cargo-2": [
+   960,
+   1200
+  ],
+  "cargo-3": [
+   960,
+   1200
+  ],
+  "cargo-4": [
+   960,
+   1200
+  ],
+  "cargo-hd": [
+   566,
+   708
+  ],
+  "catalogo/calzado-01": [
+   572,
+   716
+  ],
+  "catalogo/calzado-02": [
+   572,
+   716
+  ],
+  "catalogo/calzado-03": [
+   572,
+   716
+  ],
+  "catalogo/calzado-04": [
+   572,
+   716
+  ],
+  "catalogo/calzado-05": [
+   572,
+   716
+  ],
+  "catalogo/calzado-06": [
+   572,
+   716
+  ],
+  "catalogo/calzado-07": [
+   572,
+   716
+  ],
+  "catalogo/calzado-08": [
+   572,
+   716
+  ],
+  "catalogo/calzado-09": [
+   572,
+   716
+  ],
+  "catalogo/calzado-10": [
+   572,
+   716
+  ],
+  "catalogo/calzado-11": [
+   572,
+   716
+  ],
+  "catalogo/calzado-12": [
+   572,
+   716
+  ],
+  "catalogo/calzado-13": [
+   572,
+   716
+  ],
+  "catalogo/calzado-14": [
+   572,
+   716
+  ],
+  "catalogo/camisas-01": [
+   608,
+   760
+  ],
+  "catalogo/camisas-02": [
+   608,
+   760
+  ],
+  "catalogo/camisas-03": [
+   608,
+   760
+  ],
+  "catalogo/camisas-04": [
+   608,
+   760
+  ],
+  "catalogo/camisas-05": [
+   608,
+   760
+  ],
+  "catalogo/camisas-06": [
+   608,
+   760
+  ],
+  "catalogo/camisas-07": [
+   608,
+   760
+  ],
+  "catalogo/camisas-08": [
+   608,
+   760
+  ],
+  "catalogo/camisas-09": [
+   608,
+   760
+  ],
+  "catalogo/camisas-10": [
+   608,
+   760
+  ],
+  "catalogo/camisas-11": [
+   608,
+   760
+  ],
+  "catalogo/camisas-12": [
+   608,
+   760
+  ],
+  "catalogo/camiseta-novedad": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-estampadas-01": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-02": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-03": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-04": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-05": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-06": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-07": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-08": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-09": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-10": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-11": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-12": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-13": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-14": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-15": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-estampadas-16": [
+   508,
+   636
+  ],
+  "catalogo/camisetas-lisas-01": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-02": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-03": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-04": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-05": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-06": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-07": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-08": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-09": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-10": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-11": [
+   582,
+   728
+  ],
+  "catalogo/camisetas-lisas-12": [
+   582,
+   728
+  ],
+  "catalogo/pantalones-01": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-02": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-03": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-04": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-05": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-06": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-07": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-08": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-09": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-10": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-11": [
+   466,
+   582
+  ],
+  "catalogo/pantalones-12": [
+   466,
+   582
+  ],
+  "chaleco-1": [
+   960,
+   1200
+  ],
+  "chaleco-2": [
+   960,
+   1200
+  ],
+  "chaleco-3": [
+   960,
+   1200
+  ],
+  "chaleco-4": [
+   960,
+   1200
+  ],
+  "chaleco-hd": [
+   566,
+   708
+  ],
+  "giro/f0": [
+   900,
+   900
+  ],
+  "giro/f1": [
+   900,
+   900
+  ],
+  "giro/f2": [
+   900,
+   900
+  ],
+  "giro/f3": [
+   900,
+   900
+  ],
+  "giro/f4": [
+   900,
+   900
+  ],
+  "giro/f5": [
+   900,
+   900
+  ],
+  "giro/f6": [
+   900,
+   900
+  ],
+  "giro/f7": [
+   900,
+   900
+  ],
+  "gorra-1": [
+   960,
+   1200
+  ],
+  "gorra-2": [
+   960,
+   1200
+  ],
+  "gorra-3": [
+   960,
+   1200
+  ],
+  "gorra-4": [
+   960,
+   1200
+  ],
+  "gorra-hd": [
+   566,
+   708
+  ],
+  "hoodie-1": [
+   960,
+   1200
+  ],
+  "hoodie-2": [
+   960,
+   1200
+  ],
+  "hoodie-3": [
+   960,
+   1200
+  ],
+  "hoodie-4": [
+   960,
+   1200
+  ],
+  "hoodie-hd": [
+   566,
+   708
+  ],
+  "jeans-1": [
+   960,
+   1200
+  ],
+  "jeans-2": [
+   960,
+   1200
+  ],
+  "jeans-3": [
+   960,
+   1200
+  ],
+  "jeans-4": [
+   960,
+   1200
+  ],
+  "jeans-hd": [
+   566,
+   708
+  ],
+  "looks/look-01": [
+   576,
+   720
+  ],
+  "looks/look-02": [
+   576,
+   720
+  ],
+  "looks/look-03": [
+   576,
+   720
+  ],
+  "looks/look-04": [
+   576,
+   720
+  ],
+  "looks/look-05": [
+   576,
+   720
+  ],
+  "looks/look-06": [
+   576,
+   720
+  ],
+  "looks/look-07": [
+   576,
+   720
+  ],
+  "looks/look-08": [
+   576,
+   720
+  ],
+  "looks/look-09": [
+   576,
+   720
+  ],
+  "looks/look-10": [
+   576,
+   720
+  ],
+  "looks/look-11": [
+   576,
+   720
+  ],
+  "looks/look-12": [
+   576,
+   720
+  ],
+  "looks/look-13": [
+   576,
+   720
+  ],
+  "looks/look-14": [
+   576,
+   720
+  ],
+  "looks/look-15": [
+   576,
+   720
+  ],
+  "looks/look-16": [
+   576,
+   720
+  ],
+  "looks/look-17": [
+   576,
+   720
+  ],
+  "looks/look-18": [
+   576,
+   720
+  ],
+  "looks/look-19": [
+   576,
+   720
+  ],
+  "looks/look-20": [
+   576,
+   720
+  ],
+  "looks/look-21": [
+   576,
+   720
+  ],
+  "looks/look-22": [
+   576,
+   720
+  ],
+  "looks/look-23": [
+   576,
+   720
+  ],
+  "looks/look-24": [
+   576,
+   720
+  ],
+  "looks/look-25": [
+   576,
+   720
+  ],
+  "looks/look-26": [
+   576,
+   720
+  ],
+  "looks/look-27": [
+   576,
+   720
+  ],
+  "looks/look-28": [
+   576,
+   720
+  ],
+  "looks/look-29": [
+   576,
+   720
+  ],
+  "looks/look-30": [
+   576,
+   720
+  ],
+  "parka-1": [
+   960,
+   1200
+  ],
+  "parka-2": [
+   960,
+   1200
+  ],
+  "parka-3": [
+   960,
+   1200
+  ],
+  "parka-4": [
+   960,
+   1200
+  ],
+  "parka-hd": [
+   566,
+   708
+  ],
+  "popup/bienvenida": [
+   1600,
+   1195
+  ],
+  "puffer-3-4": [
+   960,
+   1200
+  ],
+  "puffer-espalda": [
+   960,
+   1200
+  ],
+  "puffer-hd": [
+   566,
+   708
+  ],
+  "puffer-lado": [
+   960,
+   1200
+  ],
+  "puffer": [
+   960,
+   1200
+  ],
+  "shorts-1": [
+   960,
+   1200
+  ],
+  "shorts-2": [
+   960,
+   1200
+  ],
+  "shorts-3": [
+   960,
+   1200
+  ],
+  "shorts-4": [
+   960,
+   1200
+  ],
+  "shorts-hd": [
+   566,
+   708
+  ],
+  "sudadera-1": [
+   960,
+   1200
+  ],
+  "sudadera-2": [
+   960,
+   1200
+  ],
+  "sudadera-3": [
+   960,
+   1200
+  ],
+  "sudadera-4": [
+   960,
+   1200
+  ],
+  "sudadera-hd": [
+   566,
+   708
+  ]
+ },
+ "resumen": {
+  "archivos": 181,
+  "usadas": 168,
+  "sinUsar": 13
+ }
+}

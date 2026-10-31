@@ -1,0 +1,151 @@
+/* Base: reset, tipografía (solo Oswald), grilla, grano, foco */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: auto; scrollbar-gutter: stable; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+:root {
+  --margen: clamp(20px, 4vw, 48px);
+  --gap: 16px;
+  --seccion: clamp(6rem, 4rem + 8vw, 10rem);
+
+  --fs-display: clamp(3rem, 1.6rem + 6vw, 6rem);
+  --fs-h2: clamp(2.25rem, 1.2rem + 4vw, 4.5rem);
+  --fs-h3: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --fs-lead: clamp(1.25rem, 1.1rem + 0.8vw, 1.75rem);
+  --fs-cuerpo: 1.0625rem;
+  --fs-etiqueta: 0.75rem;
+  --fs-fon: 0.8125rem;
+
+  --hueso-70: rgb(242 240 238 / 0.7);
+  --hueso-55: rgb(242 240 238 / 0.55);
+}
+
+@media (min-width: 640px) { :root { --gap: 20px; } }
+@media (min-width: 1024px) { :root { --gap: 24px; } }
+
+body {
+  margin: 0;
+  background: var(--negro);
+  color: var(--hueso);
+  font-family: var(--cuerpo);
+  font-size: var(--fs-cuerpo);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, p, ul, ol, figure { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+img { display: block; max-width: 100%; }
+button { font: inherit; color: inherit; letter-spacing: inherit; cursor: pointer; background: none; border: 0; padding: 0; }
+a { color: inherit; text-decoration: none; }
+
+h1, h2, h3 { text-wrap: balance; text-transform: uppercase; }
+p { text-wrap: pretty; }
+
+h2 {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+/* Contenedor y grilla de 12 columnas (8 en tablet, 4 en móvil) */
+.contenedor {
+  width: 100%;
+  max-width: calc(1240px + var(--margen) * 2);
+  margin-inline: auto;
+  padding-inline: var(--margen);
+}
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: var(--gap);
+}
+@media (min-width: 640px) { .grilla { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .grilla { grid-template-columns: repeat(12, minmax(0, 1fr)); } }
+
+/* Texto auxiliar */
+.etiqueta {
+  font-size: var(--fs-etiqueta);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: var(--hueso-70);
+}
+.fon {
+  font-size: var(--fs-fon);
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  color: var(--hueso-70);
+}
+.fon b { font-weight: 500; color: var(--hueso); }
+.lead {
+  font-size: var(--fs-lead);
+  font-weight: 300;
+  line-height: 1.3;
+  letter-spacing: 0.005em;
+  max-width: 40ch;
+}
+.cuerpo { max-width: 52ch; }
+.cuerpo-suave { color: var(--hueso-70); }
+
+/* Foco visible (rojo, 2px) */
+:focus-visible { outline: 2px solid var(--rojo-vivo); outline-offset: 3px; }
+
+/* Solo lectores de pantalla */
+.sr {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Grano: PNG de ruido generado en JS (ver lib/grano.js). Solo decorativo */
+.grano {
+  position: fixed; inset: 0; z-index: 60; pointer-events: none;
+  background-image: var(--grano-url);
+  background-size: 256px 256px;
+  mix-blend-mode: overlay;
+  opacity: 0.05;
+}
+@media (min-width: 1024px) and (hover: hover) and (pointer: fine) {
+  .grano { opacity: 0.09; animation: grano 0.8s steps(6) infinite; }
+}
+@keyframes grano {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-3%, 2%); }
+  40% { transform: translate(2%, -3%); }
+  60% { transform: translate(-2%, -1%); }
+  80% { transform: translate(3%, 3%); }
+  100% { transform: translate(0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grano { animation: none !important; opacity: 0.05; }
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
+
+/* Botones */
+.boton {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  min-height: 48px; padding: 0 1.75rem;
+  background: var(--rojo); color: var(--hueso);
+  font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.14em; text-transform: uppercase;
+  transition: background var(--dur-corta) var(--ease), transform var(--dur-corta) var(--ease);
+}
+.boton:hover { background: var(--rojo-vivo); }
+.boton:active { transform: translateY(1px); }
+.boton--contorno { background: transparent; box-shadow: inset 0 0 0 1px var(--linea); }
+.boton--contorno:hover { background: rgb(242 240 238 / 0.08); }
